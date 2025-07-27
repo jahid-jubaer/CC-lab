@@ -1,9 +1,10 @@
-/* A Bison parser, made by GNU Bison 2.4.2.  */
+
+/* A Bison parser, made by GNU Bison 2.4.1.  */
 
 /* Skeleton interface for Bison's Yacc-like parsers in C
    
-      Copyright (C) 1984, 1989-1990, 2000-2006, 2009-2010 Free Software
-   Foundation, Inc.
+      Copyright (C) 1984, 1989, 1990, 2000, 2001, 2002, 2003, 2004, 2005, 2006
+   Free Software Foundation, Inc.
    
    This program is free software: you can redistribute it and/or modify
    it under the terms of the GNU General Public License as published by
@@ -38,12 +39,29 @@
    /* Put the tokens into the symbol table, so that GDB and other debuggers
       know about them.  */
    enum yytokentype {
-     NUM = 258,
-     ADD = 259,
-     SUB = 260,
-     MUL = 261,
-     DIV = 262,
-     NL = 263
+     INT = 258,
+     IF = 259,
+     ELSE = 260,
+     WHILE = 261,
+     ASSIGN = 262,
+     SEMI = 263,
+     PLUS = 264,
+     MINUS = 265,
+     MUL = 266,
+     DIV = 267,
+     MOD = 268,
+     LT = 269,
+     GT = 270,
+     LE = 271,
+     GE = 272,
+     EQ = 273,
+     NE = 274,
+     LP = 275,
+     RP = 276,
+     LB = 277,
+     RB = 278,
+     ID = 279,
+     NUM = 280
    };
 #endif
 
